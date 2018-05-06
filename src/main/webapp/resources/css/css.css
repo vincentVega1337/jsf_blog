@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    align-items: center;
+    background: #d1b297 url("https://www.transparenttextures.com/patterns/sandpaper.png");
+}
+
+.main {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+    background: gray;
+    opacity: 0.8;
+}
+
+.header {
+    background: tan;
+    width: 100%;
+    height: 15%;
+}
+
+.logo {
+    float: left;
+    width: 95%;
+    height: 100%;
+}
+
+.languages {
+    float: right;
+    width: 5%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.footer {
+    width: 100%;
+    height: 3%;
+    background: yellow;
+}
+
+.middle {
+    width: 100%;
+    height: 82%
+}
+
+.left {
+    float: left;
+    width: 20%;
+    height: 82%;
+    background: tan;
+}
+
+.right {
+    float: right;
+    width: 80%;
+    height: 82%;
+    background:#fff2b9;
+}
+
+.arteezy {
+    height: 100%;
+    user-select: none;
+}
+
+.langButton {
+    width: 100%;
+    opacity: 0.5;
+
+}
+
+.langButton:hover {
+    opacity: 1;
+}
